@@ -1,7 +1,7 @@
 
 
 .d-item{
-    height: 600px;
+    height: 550px;
     background-size: cover;
     background-position: center;
 
@@ -9,6 +9,7 @@
 
 .d-img{
     height: 100%;
+    object-fit: center;
 }
 
 h1{
