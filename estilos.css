@@ -1,113 +1,17 @@
-.h1 {
-  text-align: center;
-  color: grey;
-  background-color: antiquewhite;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 24 |     color: $color-gray;
+ *    |            ^^^^^^^^^^^
+ *    '
+ *   sass\estilos.scss 24:12  root stylesheet */
 
-.d-item {
-  height: 550px;
-  background-size: cover;
-  background-position: center;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 24 \2502      color: $color-gray;\d\a    \2502             ^^^^^^^^^^^\a    \2575 \a   sass\\estilos.scss 24:12  root stylesheet";
 }
-
-.d-img {
-  height: 100%;
-  object-fit: center;
-}
-
-h1 {
-  text-align: center;
-  color: gray;
-}
-
-p {
-  text-align: center;
-  color: rgb(153, 144, 144);
-}
-
-footer {
-  background-color: rgb(248, 71, 59);
-  text-align: center;
-  color: rgb(54, 52, 52);
-}
-
-footer a {
-  color: rgb(80, 77, 77);
-  text-decoration: none;
-}
-
-footer ul li {
-  list-style: none;
-}
-
-.redes {
-  font-size: 30px;
-}
-
-.redes i {
-  letter-spacing: 10px;
-}
-
-.galeria {
-  height: 700px;
-  width: 100%;
-  background-color: pink;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 200px);
-}
-
-.item {
-  background-size: cover;
-  background-position: center;
-}
-
-.item1 {
-  background-image: url(./img/foto1.jpeg);
-}
-
-.item2 {
-  background-image: url(./img/foto2.jpeg);
-}
-
-.item3 {
-  background-image: url(./img/foto3.jpeg);
-}
-
-.item4 {
-  background-image: url(./img/foto4.jpeg);
-}
-
-.item5 {
-  background-image: url(./img/foto5.jpeg);
-}
-
-.item6 {
-  background-image: url(./img/foto6.jpeg);
-}
-
-.item7 {
-  background-image: url(./img/foto7.jpeg);
-}
-
-.item8 {
-  background-image: url(./img/foto8.jpeg);
-}
-
-.item9 {
-  background-image: url(./img/foto8.jpeg);
-}
-
-.item10 {
-  background-image: url(./img/foto10.jpeg);
-}
-
-.item11 {
-  background-image: url(./img/foto11.jpeg);
-}
-
-.item12 {
-  background-image: url(./img/foto12.jpeg);
-}
-
-/*# sourceMappingURL=estilos.css.map */
